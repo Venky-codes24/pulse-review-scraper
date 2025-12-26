@@ -1,0 +1,12 @@
+requests
+beautifulsoup4
+lxml
+python-dateutil
+tenacity
+fake-useragent
+pydantic
+tqdm
+click
+loguru
+textblob
+pytest
