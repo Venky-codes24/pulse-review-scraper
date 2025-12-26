@@ -75,36 +75,22 @@ Input Parameters
 | `--output`     | Output JSON file (optional)       |
 | `--verbose`    | Enable detailed logging           |
 | `--demo`       | Run in demo mode                  |
-Output
+---
 
-.The script generates a JSON file containing:
+## Output
+The script generates a JSON file containing:
+- Metadata such as company name, date range, source, and execution time
+- Review details including title, review text, date, rating, and source
 
-.Metadata (company name, date range, source, execution time)
+---
 
-.Review details (title, text, date, rating, source)
+## Error Handling
+- Network and request failures are safely handled
+- Blocked requests (403 Forbidden) are logged as warnings
+- Missing or malformed data is skipped gracefully
+- Empty results still generate a valid JSON output
 
-->Error Handling
+---
 
-->Network and request failures are safely handled
-
-->Blocked requests are logged as warnings
-
-->Missing or malformed data is skipped
-
-->Empty results still produce valid JSON outpu
-
-Ethical Considerations
-
-No aggressive scraping techniques used
-
-No bypassing of platform security mechanisms
-
-Designed strictly for educational purposes
-
-Demo mode included to ensure compliance with platform policies
-Bonus Implementation
-
-A third SaaS review platform, TrustRadius, has been integrated using the same architecture as the primary sources, fulfilling the bonus requirement.
-Conclusion
-
-This project provides a clean, extensible, and assignment-ready solution that meets all requirements of the Pulse Coding Assignment while demonstrating real-world software engineering practices.
+## Conclusion
+This project provides a clean, extensible, and assignment-ready solution that meets all the requirements of the Pulse Coding Assignment while demonstrating good software engineering practices.
