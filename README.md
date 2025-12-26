@@ -77,21 +77,21 @@ Input Parameters
 | `--demo`       | Run in demo mode                  |
 Output
 
-.The script generates a JSON file containing:
+The script generates a JSON file containing:
 
-.Metadata (company name, date range, source, execution time)
+Metadata (company name, date range, source, execution time)
 
-.Review details (title, text, date, rating, source)
+Review details (title, text, date, rating, source)
 
-->Error Handling
+Error Handling
 
-->Network and request failures are safely handled
+Network and request failures are safely handled
 
-->Blocked requests are logged as warnings
+Blocked requests are logged as warnings
 
-->Missing or malformed data is skipped
+Missing or malformed data is skipped
 
-->Empty results still produce valid JSON outpu
+Empty results still produce valid JSON outpu
 
 Ethical Considerations
 
